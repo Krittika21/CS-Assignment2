@@ -1,0 +1,7 @@
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\bin\Debug\Employee-Salary.exe.config
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\bin\Debug\Employee-Salary.exe
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\bin\Debug\Employee-Salary.pdb
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\obj\Debug\Employee-Salary.csprojAssemblyReference.cache
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\obj\Debug\Employee-Salary.csproj.CoreCompileInputs.cache
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\obj\Debug\Employee-Salary.exe
+C:\Users\krittika\source\repos\Employee-Salary\Employee-Salary\obj\Debug\Employee-Salary.pdb

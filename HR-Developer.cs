@@ -8,6 +8,7 @@ namespace Employee_Salary
 {
     public class HR_Developer : Employee
     {
+        //HR
         public override void DrawHR()
         {
             Id = 1;
@@ -16,10 +17,12 @@ namespace Employee_Salary
             BasicSalary = 8000;
             JoiningDate = 07 / 01 / 2019;   
         }
-        public override int CalculationHR()
+        public override int CalculationHR(int val)
         {
-            return AnnualSalary = BasicSalary + 1000 * ExperienceHR;
+            return AnnualSalary = 8000 + 1000 * val;
         }
+
+        //Developer
         public override void DrawDev()
         {
             Id = 5;
@@ -28,9 +31,9 @@ namespace Employee_Salary
             BasicSalary = 8000;
             JoiningDate = 01 / 01 / 2017;
         }
-        public override int CalculationDev()
+        public override int CalculationDev(int value)
         {
-            return AnnualSalary = BasicSalary + (2000 * this.ExperienceDev);
+            return AnnualSalary = 8000 + 2000 * value;
         }
     }
 }

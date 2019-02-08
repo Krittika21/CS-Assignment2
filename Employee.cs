@@ -9,10 +9,10 @@ namespace Employee_Salary
     public abstract class Employee
     {
         public abstract void DrawHR();
-        public abstract int CalculationHR();
+        public abstract int CalculationHR(int val);
 
         public abstract void DrawDev();
-        public abstract int CalculationDev();
+        public abstract int CalculationDev(int value);
 
         protected int Id { get; set; }
         protected int BasicSalary { get; set; } 

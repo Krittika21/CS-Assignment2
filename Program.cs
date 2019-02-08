@@ -12,20 +12,24 @@ namespace Employee_Salary
         {
             Employee emp;
             emp = new HR_Developer();
-            emp.DrawHR();
-
+           
             HR_Developer hr_dev = new HR_Developer();
-            hr_dev.DrawHR();
+
+            int h = emp.ExperienceHR;
+            int d = emp.ExperienceDev;
 
             Console.WriteLine("\nEnter the year(s) of experience of the HR : ");
-            emp.ExperienceHR = int.Parse(Console.ReadLine());
-            Console.WriteLine("\nThe Annual Salary of HR is:  " + hr_dev.CalculationHR());
+            h = int.Parse(Console.ReadLine());
+            Console.WriteLine($"\nHR have 8000/-RS as basic salary and have {h} year(s) of experience.\n Therefore the Annual Salary of HR is:  " + hr_dev.CalculationHR(h));
 
             emp.DrawDev();
             hr_dev.DrawDev();
             Console.WriteLine("\nEnter the year(s) of experience of the Developer : ");
-            emp.ExperienceDev = int.Parse(Console.ReadLine());
-            Console.WriteLine("\n The Annual Salary of Developer is:  " + hr_dev.CalculationDev());
+            d = int.Parse(Console.ReadLine());
+            Console.WriteLine($"\nDeveloper have 8000/-RS as basic salary and have {d} year(s) of experience.\n Therefore the Annual Salary of Developer is:  " + hr_dev.CalculationDev(d));
+
+            emp.DrawHR();
+            hr_dev.DrawHR();
         }
     }
 }
